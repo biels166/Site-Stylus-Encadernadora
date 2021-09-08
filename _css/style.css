@@ -9,7 +9,7 @@
 nav#menu{
     height: 18vh;
     align-items: center;
-    background-color: #000099;
+    background-color: #000050;
     display: flex;
     justify-content: space-around;
 }
@@ -23,7 +23,7 @@ ul#navegacao {
 ul#navegacao li{
     text-transform: uppercase;
     padding: 5px;
-    margin: 5px;
+    margin: 32px;
 }
 
 a{
@@ -37,10 +37,8 @@ a:hover{
 }
 
 main{
-    
-    margin-left: 10vh;
-    margin-right: 10vh;
-    background: url(../_imagens/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg) center center no-repeat;
+    background: url(../_imagens/mikolaj-DCzpr09cTXY-unsplash.jpg) center center no-repeat;
     background-size: cover;
     height: 92vh;
+  
 }
