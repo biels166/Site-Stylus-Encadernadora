@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0vh;
@@ -5,12 +7,23 @@
 }
 
 nav#menu{
-    height: 10vh;
+    height: 18vh;
     align-items: center;
-    background-color: #000066;
+    background-color: #000099;
     display: flex;
     justify-content: space-around;
-  
+}
+
+ul#navegacao {
+    list-style: none;
+    display: flex;
+}
+
+
+ul#navegacao li{
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 5px;
 }
 
 a{
@@ -21,4 +34,13 @@ a{
 a:hover{
     background-color: slategray;
     opacity: 0.8;
+}
+
+main{
+    
+    margin-left: 10vh;
+    margin-right: 10vh;
+    background: url(../_imagens/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg) center center no-repeat;
+    background-size: cover;
+    height: 92vh;
 }
