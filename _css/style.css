@@ -3,12 +3,14 @@
 
 }
 
-a{
+ul#menu li{
     text-decoration: none;
     color:rgb(255, 255, 255);
     transition: 100ms;
 }
-a:hover{
+
+
+ul#menu li:hover{
     background-color: slategray;
     opacity: 0.8;
 }
